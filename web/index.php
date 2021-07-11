@@ -31,7 +31,8 @@
 
             <p class="mt-5 text-muted small">
                 &copy; <?php echo date('Y') ?> by
-                <a href="https://miladrahimi.com" title="Milad Rahimi">Milad Rahimi</a>
+                <a href="https://miladrahimi.com" title="Milad Rahimi">Milad Rahimi</a> |
+                <a href="https://github.com/miladrahimi/subfix" title="Github Repository">Github</a>
             </p>
         </div>
     </div>

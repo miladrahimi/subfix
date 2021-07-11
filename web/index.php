@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Subfix | Online Persian Subtitle Fixer</title>
-    <meta name="description" content="A simple online tool to fix your Persian subtitle encodings">
+    <meta name="description" content="A simple online tool to fix Persian subtitle encodings">
     <meta name="keywords" content="Subtitle, Encoding, Persian, Fix, Online">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="index,follow">

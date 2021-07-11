@@ -24,7 +24,8 @@
                 <div class="card-body">
                     <p class="text-muted small">Choose the subtitle file to upload and fix!</p>
                     <form class="m-3" method="post" action="process.php" enctype="multipart/form-data">
-                        <input type="file" class="form-control" name="file" onchange="form.submit()">
+                        <input type="file" class="form-control" name="file" onchange="form.submit()"
+                               accept=".srt,.txt,text/plain">
                     </form>
                 </div>
             </div>

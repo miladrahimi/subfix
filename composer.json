@@ -1,5 +1,7 @@
 {
-  "require": {},
+  "require": {
+    "ext-iconv": "*"
+  },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
   }

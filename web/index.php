@@ -22,26 +22,20 @@
 
             <div class="card mt-5 bg-light text-left">
                 <div class="card-body">
-                    <form class="d-grid gap-2 m-3">
-                        <input type="file" class="form-control" name="file">
-                        <input type="submit" class="btn btn-primary" value="Upload And Fix">
+                    <p class="text-muted small">Choose the subtitle file to upload and fix!</p>
+                    <form class="m-3" method="post" action="process.php" enctype="multipart/form-data">
+                        <input type="file" class="form-control" name="file" onchange="form.submit()">
                     </form>
                 </div>
             </div>
 
             <p class="mt-5 text-muted small">
                 &copy; <?php echo date('Y') ?> by
-                <a href="https://miladrahimi.com">Milad Rahimi</a>
+                <a href="https://miladrahimi.com" title="Milad Rahimi">Milad Rahimi</a>
             </p>
         </div>
     </div>
 </main>
 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
 </body>
 </html>
-

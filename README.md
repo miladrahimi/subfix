@@ -1,3 +1,5 @@
 # Subfix
 
-Persian Subtitle Fixer
+Persian Subtitle Fixer written in PHP
+
+https://subfix.miladrahimi.com
